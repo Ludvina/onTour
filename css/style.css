@@ -28,6 +28,12 @@
     }
 }
 
+@media(max-width: 750px) {
+    .carousel-content {
+        margin: 70px 0 30px;
+    }
+}
+
 .carousel-content img {
     height: 110vh;
     min-width: 100vw;
@@ -88,6 +94,11 @@ h1 {
     margin: 70px 0 30px;
     }
 }
+@media(max-width: 750px) {
+    .h1 {
+    margin: 70px 0 30px;
+    }
+}
 
 
 hr {
@@ -110,6 +121,12 @@ hr {
 }
 
 @media(max-width: 800px) {
+    hr {
+        margin: 70px 0 30px;
+    }
+}
+
+@media(max-width: 750px) {
     hr {
         margin: 70px 0 30px;
     }
@@ -145,6 +162,14 @@ p {
 @media(max-width: 800px) {
     p  {
 
+        overflow: auto;
+        margin: 70px 0 30px;        
+    }
+}
+
+@media(max-width: 750px) {
+    p  {
+
         overflow: hidden;
         margin: 70px 0 30px;
         text-align: center;
@@ -169,11 +194,11 @@ h2 {
     justify-content: space-around;
 }
 
-@media(max-width: 1024px) {
+@media(max-width: 1180px) {
     .img  {
         overflow: hidden;
         margin: 70px 0 30px;
-        position: absolute;
+        position: relative;
         width: auto;
         height: auto;
         top: 205%;
@@ -183,12 +208,29 @@ h2 {
 @media(max-width: 800px) {
     .img {
 
-        display: block;
+        display: grid;
         position: relative;
         margin-top: 27%;
         
     }
 }
+
+@media(max-width: 750px) {
+    .img {
+
+        display: block ;
+        position: relative;
+        margin-top: 27%;
+        
+    }
+}
+
+@media(max-width: 1180px) {
+    .img1 {
+        margin: 100px 0 50px;
+    }
+}
+
 
 @media(max-width: 800px) {
     .img1 {
@@ -196,6 +238,14 @@ h2 {
         width: -webkit-fill-available;
     }
 }
+
+@media(max-width: 750px) {
+    .img1 {
+
+        width: -webkit-fill-available;
+    }
+}
+
 
 .img1{
     border-radius: 14px;
@@ -229,6 +279,15 @@ h2 {
 }
 
 @media(max-width: 800px) {
+    .date {
+
+        text-align: center;
+        height: auto;
+   
+    }
+}
+
+@media(max-width: 0px) {
     .date {
 
         text-align: center;
